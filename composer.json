@@ -1,0 +1,32 @@
+{
+    "config": {
+        "process-timeout": 900,
+        "bin-dir": "bin/"
+    },
+    "name": "radori-tasks",
+    "authors": [
+        {
+            "name": "grigamin",
+            "email": "mindaugas.grigas@visma.com",
+            "homepage": "http://www.visma.com/"
+        }
+    ],
+
+    "require": {
+        "php": "^5.5 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "" : [
+                "src/TennisRefactoringKata/tests",
+                "src/TennisRefactoringKata/."
+            ],
+            "Utils\\" : "src/Utils"
+        }
+    }
+}
