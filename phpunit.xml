@@ -12,6 +12,8 @@
     <testsuites>
         <testsuite name="Test Suite">
             <directory>./src/TennisRefactoringKata/tests</directory>
+            <directory>./src/BowlingKata/tests</directory>
+            <directory>./src/GildedRoseKata/tests</directory>
         </testsuite>
     </testsuites>
     <listeners>

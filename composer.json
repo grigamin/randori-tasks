@@ -24,7 +24,13 @@
         "psr-4": {
             "" : [
                 "src/TennisRefactoringKata/tests",
-                "src/TennisRefactoringKata/."
+                "src/TennisRefactoringKata/.",
+
+                "src/BowlingKata/tests",
+                "src/BowlingKata/.",
+
+                "src/GildedRoseKata/tests",
+                "src/GildedRoseKata/."
             ],
             "Utils\\" : "src/Utils"
         }
