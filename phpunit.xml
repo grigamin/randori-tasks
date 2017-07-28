@@ -16,8 +16,8 @@
             <directory>./src/GildedRoseKata/tests</directory>
             <directory>./src/CodeGolfCastleStairway/tests</directory>
             <directory>./src/CodeGolfCastleFractal/tests</directory>
-            <directory>./src/RomanNumerals/tests</directory>
-            <directory>./src/Song/tests</directory>
+            <!--<directory>./src/RomanNumerals/tests</directory>-->
+            <!--<directory>./src/Song/tests</directory>-->
         </testsuite>
     </testsuites>
     <listeners>
