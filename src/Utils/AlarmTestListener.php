@@ -51,9 +51,9 @@ class AlarmTestListener extends BaseTestListener
     public function __destruct()
     {
         if ($this->errorsCount) {
-            $command = "echo 'A' > /dev/ttyAMC0";
+            $command = "echo 'A' > /dev/ttyACM0";
         } else {
-            $command = "echo 'B' > /dev/ttyAMC0";
+            $command = "echo 'B' > /dev/ttyACM0";
         }
 
         exec($command);
