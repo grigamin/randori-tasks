@@ -30,7 +30,16 @@
                 "src/BowlingKata/.",
 
                 "src/GildedRoseKata/tests",
-                "src/GildedRoseKata/."
+                "src/GildedRoseKata/.",
+
+                "src/CodeGolfCastleStairway/tests",
+                "src/CodeGolfCastleStairway/.",
+
+                "src/CodeGolfCastleFractal/tests",
+                "src/CodeGolfCastleFractal/.",
+
+                "src/RomanNumerals/tests",
+                "src/RomanNumerals/."
             ],
             "Utils\\" : "src/Utils"
         }
