@@ -39,7 +39,10 @@
                 "src/CodeGolfCastleFractal/.",
 
                 "src/RomanNumerals/tests",
-                "src/RomanNumerals/."
+                "src/RomanNumerals/.",
+
+                "src/Song/tests",
+                "src/Song/."
             ],
             "Utils\\" : "src/Utils"
         }
